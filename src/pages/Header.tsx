@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-blue-900/70 backdrop-blur-md text-black border-b border-white/10">
+    <header className="sticky top-0 z-50 bg-blue-800  text-black border-b border-white/10">
       <nav className="flex justify-between items-center px-6 py-3">
         {/* Logo normalne veličine */}
         <div className="flex items-center space-x-3">
